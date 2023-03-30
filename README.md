@@ -1,3 +1,14 @@
+# Fork From: https://github.com/corvofeng/upterm
+
+# Blog Tutorial
+[csdn post](https://blog.csdn.net/alex_yangchuansheng/article/details/124701247)
+### linux arm64
+```shell
+wget -cO upterm https://ghproxy.com/https://github.com/corvofeng/upterm/releases/download/v0.9.0/upterm_linux_arm64
+chmod +x upterm
+./upterm host --vscode --verify-host-key=false $@ -- bash
+```
+
 # Upterm
 
 [Upterm](https://github.com/owenthereal/upterm) is an open-source solution for sharing terminal sessions instantly over the public internet via secure tunnels.
